@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+}
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.logo span {
+    color: #94d2bd;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: #94d2bd;
+}
+.cta {
+    background-color: #94d2bd;
+    color: #005f73;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.cta:hover {
+    background-color: #e9ecef;
+}
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.about, .services, .contact {
+    margin-bottom: 40px;
+}
+h2 {
+    color: black;
+    border-bottom: 2px solid #005f73;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+    footer {
+    background-color: #0a9396;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #e9ecef;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+}
+main {
+    background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(90deg, rgb(22, 176, 207),rgb(111,43,203));
+}
+.a{
+    color: white;
+}
+
+.inter{
+    border-radius: 30px;
+    border:1px solid black;
+    width: 75px;
+    height: 75px;
+}
+.HTMLTITLE{
+    text-align: center;
+    font-size: 40px;
+    position:reletive;
+    margin-left: 100px
+}
+.HTMLp{
+    font-size: 23px;
+    position:reletive;
+    margin-right: 100px;
+    margin-left: 100px
+}
+.HTML p{
+    font-size: 20px;
+    position:reletive;
+    margin-right: 100px;
+    margin-left: 100px
+}
+.black{
+    color: violet;
+}
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.photo-gallery img {
+border-radius: 50px;
+width: 230px;
+height: 200px;
+border: 2px solid black;
+margin: 10px
+}
